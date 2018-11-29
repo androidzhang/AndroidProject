@@ -1,4 +1,4 @@
-package com.hjq.demo.common;
+﻿package com.hjq.demo.common;
 
 import android.content.pm.ActivityInfo;
 import android.view.View;
@@ -20,7 +20,6 @@ public abstract class CommonActivity extends UIActivity
         implements OnTitleBarListener {
 
     private Unbinder mButterKnife;//View注解
-
     @Override
     public void init() {
 
@@ -47,6 +46,8 @@ public abstract class CommonActivity extends UIActivity
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         }
     }
+
+
 
     /**
      * 设置标题栏的标题
